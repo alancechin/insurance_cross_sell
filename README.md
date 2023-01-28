@@ -19,9 +19,11 @@ No seguro de saúde, existe o conceito de apólice de seguro, que são garantias
 
 ### 1.2 Contexto/Motivação da Problemática
 
-O time de produtos está validando um novo produto para seguro de automóveis, inclusive o primeiro passo foi aplicar uma pesquisa com a base de clientes atual de seguro de saúde para compreender o interesse em seguro de automóveis. 
+A empresa visa lançar um novo produto voltado para seguro de automóveis, inclusive o primeiro passo foi a elaboração e aplicação de uma pesquisa com aproximadamente 304 mil clientes de seguro de saúde para compreender o interesse em seguro de automóveis. Contudo, a lista de clientes interessados para esse novo serviço é extensa e a área comercial necessita priorizar os esforços para entrar em contato direto com as pessoas com maior propensão de compra. 
 
-Com isso, a etapa do desenvolvimento atual, é validar a primeira versão do novo serviço de seguro com a base de clientes antiga e pessoas novas. Contudo, a lista de potenciais clientes para esse novo serviço é extensa e a área comercial necessita priorizar os esforços para entrar em contato direto com as pessoas com maior propensão de compra. Para isso, o time de dados foi acionado para apresentar uma solução.
+O objetivo imediato do time comercial, é abordar uma amostra da base de clientes atual de forma assertiva com base na probabilidade de compra dos clientes. O objetivo futuro do time comercial, é possuir uma ferramenta para uso diário que possa auxiliar na análise de probabilidade de compra de clientes antigos ou novos. 
+
+Para isso, o time de dados foi acionado para apresentar uma solução.
 
 ### 1.3 Entendimento do Problema de Negócio
 
@@ -43,7 +45,7 @@ Diretor Comercial e Diretor de Produto.
 
 Mediante aprofundamento da problemática feita com às partes interessadas, alinhou-se as expectativas quanto ao formato da entrega. 
 
-1) Com base nos dados coletados da pesquisa feita com 304 mil clientes de seguro de saúde, o produto final será construir um ranqueamento por critério de interesse (propensão de compra) de uma listagem com dados de 76 mil potenciais clientes. Essa funcionalidade deve ser desenvolvida na ferramenta Google Sheets, a qual é utilizada pela empresa para concentrar a informação da área Comercial.
+1) O produto final será construir um ranqueamento por critério de interesse (propensão de compra) com base nos dados coletados da pesquisa feita com 304 mil clientes de seguro de saúde. Essa funcionalidade deve ser desenvolvida na ferramenta Google Sheets onde encontra-se a listagem com os dados de 76 mil potenciais clientes atuais que não responderam a pesquisa.
 
 2) Além disso, algumas questões de negócio pontuais foram requeridas:
 
@@ -92,7 +94,7 @@ Pode ser denominada como etapa de *Descrição dos Dados*. O objetivo é definir
 - Analisar e garantir tipos de dados corretos;
 - Aplicar estatística descritiva para analisar os atributos;
 - Identificar e tratar dados outliers;
-- Separar 20% dos dados de treino para validação (aleatoriamente, mas estratificados pela variável resposta).
+- Separar 20% dos dados para teste (aleatoriamente, mas estratificados pela variável resposta).
 
 
 5. **Exploração dos Dados:**  
@@ -144,6 +146,7 @@ Objetivo é garantir que os dados sejam numéricos e na mesma escala para facili
 
 Objetivo é selecionar atributos/características (*features*) mais relevantes para o modelo.
 
+- Separar dados em treino ( 68% ) e validação (12%);
 - Excluir de atributos que foram transformados em outros nas etapas de feature engineering e preparação dos dados;
 - Definir método de seleção de features;
 - Comparar sugestões do método utilizado com o resultado da relevância estimada dos atributos para o aprendizado feita na etapa de EDA;

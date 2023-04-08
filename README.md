@@ -14,7 +14,7 @@
     
 ### 1.1 Negócio
 
-A Insurance Full é uma companhia de seguros que fornece seguro de saúde para seus clientes. 
+A Insurance All é uma companhia de seguros que fornece seguro de saúde para seus clientes. 
 
 No seguro de saúde, existe o conceito de apólice de seguro, que são garantias que a empresa se compromete a cobrir por perda, dano, doença ou morte especificada em troca do pagamento de um prêmio acordado. O prêmio é a soma de dinheiro que o cliente precisa desembolsar regularmente a uma companhia de seguros por esta garantia.
 
@@ -22,7 +22,7 @@ No seguro de saúde, existe o conceito de apólice de seguro, que são garantias
 
 A empresa desenvolveu e está iniciando a operação de um novo serviço, o seguro de automóveis, para isso visa iniciar a operação utilizando a estratégia de *Cross-Sell*. *Cross-Sell*, ou venda cruzada, refere-se à venda de produtos ou serviços relacionados e complementares com base no interesse do cliente ou na compra de um produto.
 
-Uma das etapas fundamentais para o planejamento do *Cross-Sell*, segundo [artigo](https://www.salesforce.com/br/blog/2018/5/Up-Sell-e-Cross-Sell-O-Que-sao-e-como-aplicar.html) publicado pela Salesforce, é identificar os clientes adequados para o cross-sell, ou seja, identificar os clientes que deveriam receber a oferta. Com isso, o primeiro passo realizado pelo time comercial foi a elaboração e aplicação de uma pesquisa via e-mail, a qual obteve respostas de 381.109 clientes de seguro de saúde tendo intuito de coletar algumas informações e compreender o interesse em seguro de automóveis.  
+Uma das etapas fundamentais para o planejamento do *Cross-Sell*, segundo [artigo](https://www.salesforce.com/br/blog/2018/5/Up-Sell-e-Cross-Sell-O-Que-sao-e-como-aplicar.html) publicado pela Salesforce, é identificar os clientes adequados para o *Cross-Sell*, ou seja, identificar os clientes que deveriam receber a oferta. Com isso, o primeiro passo realizado pelo time comercial foi a elaboração e aplicação de uma pesquisa via e-mail, a qual obteve respostas de 381.109 clientes de seguro de saúde tendo intuito de coletar algumas informações e compreender o interesse em seguro de automóveis.  
 
 Como o produto possui um alto valor agregado, a empresa adota a estratégia de prospecção mais pessoal através de ligação direta e buscando um contato mais próximo. Contudo, a lista de contatos para prospecção de clientes que não responderam a pesquisa relativo a esse novo serviço é extensa, e a área comercial necessita priorizar os esforços (tempo e custo)  para entrar em contato direto com as pessoas com maior propensão de compra. 
 

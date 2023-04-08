@@ -20,7 +20,9 @@ No seguro de saúde, existe o conceito de apólice de seguro, que são garantias
 
 ### 1.2 Contexto/Motivação da Problemática
 
-A empresa visa lançar um novo produto voltado para seguro de automóveis, inclusive o primeiro passo foi a elaboração e aplicação de uma pesquisa via e-mail, a qual obteve respostas de 381.109 clientes de seguro de saúde tendo intuito de coletar algumas informações e compreender o interesse em seguro de automóveis.  
+A empresa desenvolveu e está iniciando a operação de um novo serviço, o seguro de automóveis, para isso visa iniciar a operação utilizando a estratégia de *Cross-Sell*. *Cross-Sell*, ou venda cruzada, refere-se à venda de produtos ou serviços relacionados e complementares com base no interesse do cliente ou na compra de um produto.
+
+Uma das etapas fundamentais para o planejamento do *Cross-Sell* é identificar os clientes adequados para o cross-sell, ou seja, identificar os clientes que deveriam receber a oferta. Sendo assim, o primeiro passo foi a elaboração e aplicação de uma pesquisa via e-mail, a qual obteve respostas de 381.109 clientes de seguro de saúde tendo intuito de coletar algumas informações e compreender o interesse em seguro de automóveis.  
 
 Como o produto possui um alto valor agregado, a empresa adota a estratégia de prospecção mais pessoal através de ligação direta e buscando um contato mais próximo.
 
@@ -34,11 +36,11 @@ Para isso, o time de dados foi acionado para apresentar uma solução.
 
 - **Problema/Questão de Negócio:**  *O que?* 
 
-Classificar pessoas com potencial interesse em comprar novo serviço e mensurar esse interesse de forma a priorizá-las.
+Classificar clientes com potencial interesse em comprar novo serviço e mensurar esse interesse de forma a priorizá-las.
 
 - **Causa Raiz do Problema:**  *Porque realizar esse projeto?* 
 
-Ser assertivo em abordar pessoas mais propensas a comprar o novo serviço através da extração de conhecimento da pesquisa com a base de clientes atual que a empresa dispõe e investiu recurso. Assim, reduzindo os custos e esforços da operação, maximizando o lucro. 
+Ser assertivo em abordar clientes mais propensos a comprar o novo serviço através da extração de conhecimento da pesquisa com a base de clientes que a empresa coletou. Assim, reduzindo os custos e esforços da operação, maximizando o lucro. 
 
 - **Dono do Problema:** *Principal parte interessada?*
 
@@ -68,7 +70,7 @@ O significado dos atributos que caracterizam os dados podem ser acessados no lin
 
 Mediante aprofundamento da problemática feita com às partes interessadas, alinhou-se as expectativas quanto ao formato da entrega. 
 
-1) O produto final será construir um ranqueamento por propensão de compra, utilizando critério de interesse, com base nos dados coletados da pesquisa feita com 381.109 clientes de seguro de saúde. Essa funcionalidade deve ser desenvolvida na ferramenta Google Sheets onde encontra-se a listagem com os dados de 127.037 potenciais clientes que não responderam a pesquisa.
+1) O produto final será construir um ranqueamento por propensão de compra, utilizando critério de interesse, com base nos dados coletados da pesquisa feita com 381.109 clientes de seguro de saúde. Essa funcionalidade deve ser desenvolvida na ferramenta Google Sheets onde encontra-se a listagem com os dados de 127.037 clientes que não responderam a pesquisa.
 
 2) Além disso, algumas questões de negócio pontuais foram requeridas:
 

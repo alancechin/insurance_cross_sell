@@ -24,9 +24,7 @@ A empresa desenvolveu e está iniciando a operação de um novo serviço, o segu
 
 Uma das etapas fundamentais para o planejamento do *Cross-Sell*, segundo [artigo](https://www.salesforce.com/br/blog/2018/5/Up-Sell-e-Cross-Sell-O-Que-sao-e-como-aplicar.html) publicado pela Salesforce, é identificar os clientes adequados para o cross-sell, ou seja, identificar os clientes que deveriam receber a oferta. Com isso, o primeiro passo realizado pelo time comercial foi a elaboração e aplicação de uma pesquisa via e-mail, a qual obteve respostas de 381.109 clientes de seguro de saúde tendo intuito de coletar algumas informações e compreender o interesse em seguro de automóveis.  
 
-Como o produto possui um alto valor agregado, a empresa adota a estratégia de prospecção mais pessoal através de ligação direta e buscando um contato mais próximo.
-
-Contudo, a lista de contatos para prospecção de clientes que não responderam a pesquisa relativo a esse novo serviço é extensa, e a área comercial necessita priorizar os esforços (tempo e custo)  para entrar em contato direto com as pessoas com maior propensão de compra. 
+Como o produto possui um alto valor agregado, a empresa adota a estratégia de prospecção mais pessoal através de ligação direta e buscando um contato mais próximo. Contudo, a lista de contatos para prospecção de clientes que não responderam a pesquisa relativo a esse novo serviço é extensa, e a área comercial necessita priorizar os esforços (tempo e custo)  para entrar em contato direto com as pessoas com maior propensão de compra. 
 
 O objetivo do time comercial, é possuir uma ferramenta para uso diário que possa auxiliar na análise de probabilidade de compra de clientes antigos ou novos, ordenando-os com intuito de otimizar a operação de prospecção, ou seja, abordar menos pessoas e conseguir captar o maior número de interessados. 
 
